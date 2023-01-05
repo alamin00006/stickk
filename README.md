@@ -1,1 +1,0 @@
-# Stickk-Clone
