@@ -1,5 +1,5 @@
 import React from 'react';
-import dasLogo from '../../Images/logo-commit.svg'
+import dasLogo from '../../../Images/logo-commit.svg'
 import { UserIcon } from '@heroicons/react/24/solid'
 
 import ToogleButton from './ToogleButton';

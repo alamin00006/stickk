@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Dashboard/Navbar/Navbar';
+import Home from './Components/Page/Home/Home';
+import Navbar from './Components/Page/Dashboard/Navbar/DeshNavbar'
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={< Home/>}/>
+        <Route path="/Home" element={< Home/>}/>
+      </Routes>
     </div>
   );
 }
