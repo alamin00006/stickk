@@ -1,6 +1,5 @@
 import './App.css';
 import Home from './Components/Page/Home/Home';
-import Navbar from './Components/Page/Dashboard/Navbar/DeshNavbar'
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
