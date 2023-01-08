@@ -1,13 +1,12 @@
 import React from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
+
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Footer></Footer>
-        </div>
+            <h1 className='text-5xl text-center'>Home</h1>
+        </div> 
     );
 };
 
