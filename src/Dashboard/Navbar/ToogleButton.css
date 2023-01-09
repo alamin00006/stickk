@@ -2,35 +2,36 @@
     border-radius: 2px;
     box-shadow: 6px 8px 6px 6px #ebebeb;
 }
+.middle-dashboard a{
+  text-decoration: none;
+}
 .summary{
   padding: 5px 10px;
   border-radius: 3px;
 }
 .summary.active{
-  border-top: 5px solid rgb(255, 180, 4);
+  border-top: 4px solid #ff7900 ;
  
 }
 .specification{
   padding: 5px 10px;
-  border-radius: 3px;
+  
 }
 .specification.active{
-  background-color: #33c24d;
-  color: white;
+  border-top: 4px solid #ff7900 ;
 }
 .author{
   padding: 5px 10px;
-  border-radius: 3px;
+  
 }
 .author.active{
-  background-color: #33c24d;
-  color: white;
+  border-top: 4px solid #ff7900;
 }
 .contact{
   padding: 5px 10px;
-  border-radius: 3px;
+  
 }
 .contact.active{
-  background-color: #33c24d;
-  color: white;
+  border-top: 4px solid rgb(255, 180, 4) !important;
 }
+

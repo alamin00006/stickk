@@ -1,0 +1,18 @@
+.drawer-toggle ~ .drawer-side {
+    max-height: none;
+}
+
+.monetize{
+    font-size: 10px;
+}
+.wishlist-new{
+    font-size: 10px;
+}
+/* .side-Navbar{
+    overflow:scroll;
+} */
+
+.drawer {
+   
+    height: auto !important;
+}
